@@ -21,7 +21,7 @@
     },
     "scripts": {
         "build": "tsc && rimraf dist/enterprise/emails && gulp",
-        "prestart": "mkdir -p /var/tmp/flowise/logs",
+        "prestart": "mkdir -p /tmp/flowise/logs",
         "start": "cd packages/server/bin && node run start",
         "clean": "rimraf dist",
         "nuke": "rimraf dist node_modules .turbo",
